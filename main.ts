@@ -10,7 +10,7 @@ radio.setGroup(11)
 music.setVolume(127)
 basic.forever(function () {
     if (aqi == 999) {
-        music.playMelody("C C C5 C5 C C C5 C5 ", 400)
+        music.playMelody("C C C5 C5 C C C5 C5 ", 200)
         basic.showString("SOS")
     } else {
         basic.showNumber(aqi)
